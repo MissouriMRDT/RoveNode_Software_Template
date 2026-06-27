@@ -9,6 +9,17 @@ RM := rm -rf
 
 # All of the sources participating in the build are defined here
 -include sources.mk
+-include Middlewares/RoveOS/Task/subdir.mk
+-include Middlewares/RoveOS/Logging/subdir.mk
+-include Middlewares/RoveOS/Drivers/Timers/subdir.mk
+-include Middlewares/RoveOS/Drivers/GPIO/subdir.mk
+-include Middlewares/RoveOS/Drivers/Connectivity/UART/subdir.mk
+-include Middlewares/RoveOS/Drivers/Connectivity/SPI/subdir.mk
+-include Middlewares/RoveOS/Drivers/Connectivity/IIC/subdir.mk
+-include Middlewares/RoveOS/Drivers/Connectivity/CANbus/subdir.mk
+-include Middlewares/RoveOS/Drivers/ADC/subdir.mk
+-include Middlewares/RoveOS/Core/subdir.mk
+-include Middlewares/Project/subdir.mk
 -include Drivers/STM32H5xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk

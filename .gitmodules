@@ -1,0 +1,3 @@
+[submodule "Middlewares/RoveOS"]
+	path = Middlewares/RoveOS
+	url = https://github.com/MissouriMRDT/RoveOS.git

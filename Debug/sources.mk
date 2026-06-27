@@ -25,4 +25,15 @@ SUBDIRS := \
 Core/Src \
 Core/Startup \
 Drivers/STM32H5xx_HAL_Driver/Src \
+Middlewares/Project \
+Middlewares/RoveOS/Core \
+Middlewares/RoveOS/Drivers/ADC \
+Middlewares/RoveOS/Drivers/Connectivity/CANbus \
+Middlewares/RoveOS/Drivers/Connectivity/IIC \
+Middlewares/RoveOS/Drivers/Connectivity/SPI \
+Middlewares/RoveOS/Drivers/Connectivity/UART \
+Middlewares/RoveOS/Drivers/GPIO \
+Middlewares/RoveOS/Drivers/Timers \
+Middlewares/RoveOS/Logging \
+Middlewares/RoveOS/Task \
 
