@@ -42,4 +42,6 @@
 "./Middlewares/RoveOS/Drivers/GPIO/ROS_gpio.o"
 "./Middlewares/RoveOS/Drivers/Timers/ROS_tim.o"
 "./Middlewares/RoveOS/Logging/ROS_log.o"
+"./Middlewares/RoveOS/Platform/Nucleo_H563ZI/ROS_plat_nucleo.o"
+"./Middlewares/RoveOS/Platform/RoveNode_H5/ROS_plat_rovenode.o"
 "./Middlewares/RoveOS/Task/ROS_task.o"

@@ -35,5 +35,7 @@ Middlewares/RoveOS/Drivers/Connectivity/UART \
 Middlewares/RoveOS/Drivers/GPIO \
 Middlewares/RoveOS/Drivers/Timers \
 Middlewares/RoveOS/Logging \
+Middlewares/RoveOS/Platform/Nucleo_H563ZI \
+Middlewares/RoveOS/Platform/RoveNode_H5 \
 Middlewares/RoveOS/Task \
 
