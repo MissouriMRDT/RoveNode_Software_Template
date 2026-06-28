@@ -11,7 +11,8 @@ RM := rm -rf
 -include sources.mk
 -include Middlewares/RoveOS/Task/subdir.mk
 -include Middlewares/RoveOS/Platform/RoveNode_H5/subdir.mk
--include Middlewares/RoveOS/Platform/Nucleo_H563ZI/subdir.mk
+-include Middlewares/RoveOS/Platform/Nucleo_H5/subdir.mk
+-include Middlewares/RoveOS/Platform/Nucleo_F4/subdir.mk
 -include Middlewares/RoveOS/Logging/subdir.mk
 -include Middlewares/RoveOS/Drivers/Timers/subdir.mk
 -include Middlewares/RoveOS/Drivers/GPIO/subdir.mk
